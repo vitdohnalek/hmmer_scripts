@@ -1,3 +1,4 @@
+#Iterate over directories with hmmer results files and corresponding fasta files
 from Bio import SeqIO
 import argparse
 import glob
