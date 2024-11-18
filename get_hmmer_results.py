@@ -1,3 +1,4 @@
+#Write fasta file from hmmer results for a single results file
 from Bio import SeqIO
 import argparse
 import os
