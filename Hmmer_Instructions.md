@@ -6,7 +6,7 @@ For larger alignments you can set multiple cores with --nt {NUMBER}, or use maff
 mafft --maxiterate 1000 --localpair {FASTA_FILE} > {FILE_NAME}.fasta
 ```
 
-## HMM Profile generation
+## HMM Profile Generation
 
 ```bash
 hmmbuild {FILE_NAME}.hmm {ALIGNMENT_FILE}
