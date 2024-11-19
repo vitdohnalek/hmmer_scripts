@@ -41,7 +41,7 @@ done
 ## Converting Hmmer Results Into New Fasta
 
 For multiple files use the get_hhmer_results_batch.py script.
-The script assumes the names of corresponding fasta files and result files are the same.
+The script assumes the basenames (filename without path and extension) of corresponding fasta files and result files are the same.
 ```bash
 source myenv/bin/activate
 python3  get_hmmer_results_batch.py --db {FASTA_FILES_DIRECTORY} --results {RESULTS_FILES_DIRECTORY} --output_dir {OUTPUT_FASTA_FILES_DIRESTORY}
