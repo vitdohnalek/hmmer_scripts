@@ -48,7 +48,7 @@ python3  get_hmmer_results_batch.py --db {FASTA_FILES_DIRECTORY} --results {RESU
 
 For individual sequence retrievals you can use the get_hmmer_results.py script:
 ```bash
-python3  get_hmmer_results.py --db {FASTA_FIL} --results {RESULTS_FILES_DIRECTORY} --output_dir {OUTPUT_FILE_PATH}
+python3  get_hmmer_results.py --db {FASTA_FILE} --results {RESULTS_FILES_DIRECTORY} --output_dir {OUTPUT_FILE_PATH}
 ```
 
 
